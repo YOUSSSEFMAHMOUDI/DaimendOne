@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav-link:hover{
+    color:white;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 19px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid black;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color:black;
+    color: white;
+    font-weight:700 ;
+    border-radius: 19px;
+}
+.main{
+    background-image: url(image/Untitled-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 88vh ;
+    background-position: right;
+}
+.main h2{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color:#FCF5ED ;
+    color: black;
+    font-weight: 700;
+    border-radius: 19px;
+}
+.btn0:hover{
+    background-color: #FCF5ED;
+    color: black;
+}
+h1{
+    font-weight: 700;
+    color: white;
+}
+.ring{
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+h6,p ,h4{
+    color: white;
+}
+.card{
+    background-color: black;
+}
+.card:hover{
+    box-shadow: 0 0  5px rgb(243, 243, 204);
+}
+.apple{
+    background-image:url(image/bodImage.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 88vh;
+    background-position: right;
+}
+.apple h1 ,h6{
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-shadow:0 0 12px black;
+    
+}
+.apple{
+    padding-left: 70px;
+    
+    
+}
+.btn2{
+    width: 100px;
+    height: 45px;
+    background-color:black;
+    color: white;
+    margin-left: -10px;
+    border: 2px solid white;
+   
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: #FCF5ED;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: #FCF5ED;
+}
+.news p{
+    margin: 5px;
+}
+h5{
+    color: white;
+    margin-top: 8px;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+    color: #FCF5ED;
+}
+hr{
+    color: #FCF5ED;
+}
+.fas{
+    color: white;
+}
